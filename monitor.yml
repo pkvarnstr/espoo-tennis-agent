@@ -1,0 +1,53 @@
+name: Indoor tennis availability
+on:
+  workflow_dispatch:
+  schedule:
+    # UTC seasonal candidates. Python selects 09:00 and 15:00 Europe/Helsinki.
+    - cron: '0 6 * * *'
+    - cron: '0 7 * * *'
+    - cron: '0 12 * * *'
+    - cron: '0 13 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: tennis-monitor-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  monitor:
+    # Scheduled network monitoring stays OFF until validation is reviewed.
+    if: github.event_name == 'workflow_dispatch' || vars.MONITORING_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Choose Helsinki schedule
+        id: clock
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_CRON: ${{ github.event.schedule }}
+        run: |
+          due=$(python -m tennis_agent.schedule --event "$EVENT_NAME" --cron "$EVENT_CRON")
+          echo "due=$due" >> "$GITHUB_OUTPUT"
+      - name: Unit tests
+        if: steps.clock.outputs.due == 'true'
+        run: python -m unittest discover -s tests -v
+      - name: Check public availability
+        if: steps.clock.outputs.due == 'true'
+        run: python -m tennis_agent --output reports
+      - name: Report summary
+        if: always() && steps.clock.outputs.due == 'true'
+        run: |
+          if [ -f reports/availability.md ]; then
+            cat reports/availability.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Save report and source evidence
+        if: always() && steps.clock.outputs.due == 'true'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: tennis-availability-${{ github.run_id }}-${{ github.run_attempt }}
+          path: reports/
+          if-no-files-found: warn
+          retention-days: 14
