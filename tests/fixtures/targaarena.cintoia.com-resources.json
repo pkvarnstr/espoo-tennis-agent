@@ -1,0 +1,146 @@
+{
+  "1fPRkcG4tlmeBEYWdnx7": {
+    "displayName": "SQ1",
+    "category": "squash",
+    "type": "court",
+    "sport": "Squash"
+  },
+  "1hMybKibk5OcRVhC6Bq7": {
+    "displayName": "Targa 1",
+    "category": "ulkotennis",
+    "type": "court",
+    "sport": "Tennis"
+  },
+  "3C3KW3WaLEJPtbb2StDc": {
+    "displayName": "Grani 3",
+    "category": "ulkotennis",
+    "type": "court",
+    "sport": "Tennis"
+  },
+  "9bEw5cwOK1BL29fJjyfK": {
+    "displayName": "Grani 2",
+    "category": "ulkotennis",
+    "type": "court",
+    "sport": "Tennis"
+  },
+  "FcZPg6u2uclFtmGVqHx0": {
+    "displayName": "Fysiikkatila",
+    "category": "muut tilat",
+    "type": "room",
+    "sport": "Fysiikka"
+  },
+  "Fmf2hP49JCEGRByqhFlm": {
+    "displayName": "T2",
+    "category": "tennis",
+    "type": "court",
+    "sport": "Tennis"
+  },
+  "KxC3S97D9rvqrfWdTAC2": {
+    "displayName": "T3 AKTIA",
+    "category": "tennis",
+    "type": "court",
+    "sport": "Tennis"
+  },
+  "M3tjYA0x5Lv7DijI3ml6": {
+    "displayName": "Targa 2",
+    "category": "ulkotennis",
+    "type": "court",
+    "sport": "Tennis"
+  },
+  "OVOkfHtZNG1J999W1V2W": {
+    "displayName": "Kerhohuone",
+    "category": "muut tilat",
+    "type": "room",
+    "sport": null
+  },
+  "QZCZ289O2VpBx79rp7mC": {
+    "displayName": "SP3",
+    "category": "sulkapallo",
+    "type": "court",
+    "sport": "Sulkapallo"
+  },
+  "Ri7rAs0PCEZPzVXBfhoJ": {
+    "displayName": "Pallotykki",
+    "category": "pallotykki",
+    "type": "court",
+    "sport": "Pallotykki"
+  },
+  "aH7RlgGoaPkkhbw2qvlb": {
+    "displayName": "Kokoustila",
+    "category": "muut tilat",
+    "type": "room",
+    "sport": null
+  },
+  "cr4wMNnVgfvI0udJOqxj": {
+    "displayName": "SP4",
+    "category": "sulkapallo",
+    "type": "court",
+    "sport": "Sulkapallo"
+  },
+  "dtrWc0u2t8FTNHPsF2Gv": {
+    "displayName": "T4",
+    "category": "tennis",
+    "type": "court",
+    "sport": "Tennis"
+  },
+  "eTD8LQNamQqVN1LAOq2I": {
+    "displayName": "T5",
+    "category": "tennis",
+    "type": "court",
+    "sport": "Tennis"
+  },
+  "fuXhhGjVmE2bZlAeF0k3": {
+    "displayName": "SP1",
+    "category": "sulkapallo",
+    "type": "court",
+    "sport": "Sulkapallo"
+  },
+  "hx8WBBszdDruFHVFAMMM": {
+    "displayName": "SP2",
+    "category": "sulkapallo",
+    "type": "court",
+    "sport": "Sulkapallo"
+  },
+  "kiXannjuAYXnYvPDl5J2": {
+    "displayName": "Grani 1",
+    "category": "ulkotennis",
+    "type": "court",
+    "sport": "Tennis"
+  },
+  "pwR4h5w19DOeVoeZm36w": {
+    "displayName": "P2",
+    "category": "padel",
+    "type": "court",
+    "sport": "Padel"
+  },
+  "rcIWygdiwgIBZhVS1J8N": {
+    "displayName": "P1",
+    "category": "padel",
+    "type": "court",
+    "sport": "Padel"
+  },
+  "sGxSasbGgzFiRW2TBuV7": {
+    "displayName": "SP5",
+    "category": "sulkapallo",
+    "type": "court",
+    "sport": "Sulkapallo"
+  },
+  "uuM3B7PZkjuqVLeh5aaX": {
+    "displayName": "P3",
+    "category": "padel",
+    "type": "court",
+    "sport": "Padel"
+  },
+  "vIWa2V9phGxRPbcBzDnh": {
+    "displayName": "T1",
+    "category": "tennis",
+    "type": "court",
+    "sport": "Tennis"
+  },
+  "xfK3OHnycAl4YeuskNnf": {
+    "displayName": "SQ2",
+    "category": "squash",
+    "type": "court",
+    "sport": "Squash"
+  }
+}

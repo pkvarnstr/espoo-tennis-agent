@@ -1,0 +1,303 @@
+{
+  "checked_at": "2026-11-01T22:10:28.368585+00:00",
+  "dates": [
+    "2026-11-03",
+    "2026-11-04"
+  ],
+  "timezone": "Europe/Helsinki",
+  "validation_passed": true,
+  "sources": [
+    {
+      "venue": "Rosegarden",
+      "status": "ok",
+      "matching_slots": 2,
+      "duplicates_removed": 0,
+      "dates": [
+        {
+          "date": "2026-11-03",
+          "offered_60_minute_sessions": 54,
+          "requests": [
+            {
+              "url": "https://europe-west1-falcon-328a1.cloudfunctions.net/ui-get",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:10:29 GMT",
+              "age_seconds": 0,
+              "sha256": "a760af339096c349681c374176f1bf859625ffca727f8b8d1a7d5706f3fd9f0d",
+              "bytes": 4849
+            },
+            {
+              "url": "https://firestore.googleapis.com/v1/projects/falcon-328a1/databases/(default)/documents/freeindex/rosegarden-PIYZk2Bv/indexes/public?mask.fieldPaths=%6020261103%60&_=5584b4cd1858408882c79b22287109f2",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:10:30 GMT",
+              "age_seconds": 0,
+              "sha256": "b2555622e2edb3b6ec0701665e4d5e0eb2d4d44bb2767bee3d8e7b8b911672c6",
+              "bytes": 545
+            },
+            {
+              "url": "https://falconft.s3.eu-north-1.amazonaws.com/rosegarden-PIYZk2Bv/20261103/b2ab50c3-6984-4f59-9a2b-4cb57a444cf2.json",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:10:31 GMT",
+              "age_seconds": 0,
+              "sha256": "305690b2adac7a309e844f3b57b2a95b12333749ee88bb0e6201518cb3a96fbc",
+              "bytes": 33391
+            }
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "offered_60_minute_sessions": 48,
+          "requests": [
+            {
+              "url": "https://europe-west1-falcon-328a1.cloudfunctions.net/ui-get",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:10:32 GMT",
+              "age_seconds": 0,
+              "sha256": "a760af339096c349681c374176f1bf859625ffca727f8b8d1a7d5706f3fd9f0d",
+              "bytes": 4849
+            },
+            {
+              "url": "https://firestore.googleapis.com/v1/projects/falcon-328a1/databases/(default)/documents/freeindex/rosegarden-PIYZk2Bv/indexes/public?mask.fieldPaths=%6020261104%60&_=6f88c39a90a64e79ba6bbd1667755f7f",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:10:33 GMT",
+              "age_seconds": 0,
+              "sha256": "a1d180dc150ef6e24af3e397f24b7f349e1f6c1cf8cefddf73fd527216b4c746",
+              "bytes": 545
+            },
+            {
+              "url": "https://falconft.s3.eu-north-1.amazonaws.com/rosegarden-PIYZk2Bv/20261104/fb661097-0fc0-4a5b-bcee-bd743716dd20.json",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:10:34 GMT",
+              "age_seconds": 0,
+              "sha256": "0414601185929d4d48c627571a42e8694107c02641c010ffae3d86db86a7b28a",
+              "bytes": 37779
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "venue": "Tapiolan Tennispuisto",
+      "status": "ok",
+      "matching_slots": 0,
+      "duplicates_removed": 0,
+      "dates": [
+        {
+          "date": "2026-11-03",
+          "offered_60_minute_sessions": 4,
+          "requests": [
+            {
+              "url": "https://europe-west1-falcon-328a1.cloudfunctions.net/ui-get",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:10:35 GMT",
+              "age_seconds": 0,
+              "sha256": "853ecf9ef5803f74c1f86629aecd957fa456614c7c5c87c578225e46ac213519",
+              "bytes": 2394
+            },
+            {
+              "url": "https://firestore.googleapis.com/v1/projects/falcon-328a1/databases/(default)/documents/freeindex/tennispuisto-rTVILEOT/indexes/public?mask.fieldPaths=%6020261103%60&_=126fee76e070405daea69e8f9e44d067",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:10:37 GMT",
+              "age_seconds": 0,
+              "sha256": "ad78a1d4f3863d09d015eb7d6556a30a3171d24f193f0f64e6177e79d364c270",
+              "bytes": 549
+            },
+            {
+              "url": "https://falconft.s3.eu-north-1.amazonaws.com/tennispuisto-rTVILEOT/20261103/a3ad6f8c-2830-488b-b49a-13926e51ae3f.json",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:10:38 GMT",
+              "age_seconds": 0,
+              "sha256": "e016c85f50ffb31148233cecfa6c2cfad1b108cd332d9229dd3537b856bf9bd6",
+              "bytes": 233
+            }
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "offered_60_minute_sessions": 5,
+          "requests": [
+            {
+              "url": "https://europe-west1-falcon-328a1.cloudfunctions.net/ui-get",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:10:38 GMT",
+              "age_seconds": 0,
+              "sha256": "853ecf9ef5803f74c1f86629aecd957fa456614c7c5c87c578225e46ac213519",
+              "bytes": 2394
+            },
+            {
+              "url": "https://firestore.googleapis.com/v1/projects/falcon-328a1/databases/(default)/documents/freeindex/tennispuisto-rTVILEOT/indexes/public?mask.fieldPaths=%6020261104%60&_=906da539d5bd4eae8d9ad0a310fc6810",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:10:39 GMT",
+              "age_seconds": 0,
+              "sha256": "bd80981400447c3fea9bce692c27e43ed9864c3277ea3241baaaeb9ce38ca39c",
+              "bytes": 549
+            },
+            {
+              "url": "https://falconft.s3.eu-north-1.amazonaws.com/tennispuisto-rTVILEOT/20261104/d6f7d45c-321e-424f-8870-0ed0aea010f3.json",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:10:40 GMT",
+              "age_seconds": 0,
+              "sha256": "1a3ba60b703ee0948f30060ab83bf5209298e4164f7a1de203842353df91fd06",
+              "bytes": 348
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "venue": "Esport",
+      "status": "ok",
+      "matching_slots": 2,
+      "duplicates_removed": 0,
+      "dates": [
+        {
+          "date": "2026-11-03",
+          "offered_60_minute_sessions": 109,
+          "requests": [
+            {
+              "url": "https://varaus.esportcenter.fi/varaus/index.php?func=mod_rc_v2&pageId=3&cdate=03.11.2026&_=9c7bbdd4f0a645608953c57b32056fa5",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:10:44 GMT",
+              "age_seconds": 0,
+              "sha256": "c4bd773fe913092472154e6139a379fa1f0a53ea0ba1808ee6290303270e6b17",
+              "bytes": 22810
+            },
+            {
+              "url": "https://varaus.esportcenter.fi/varaus/index.php?func=mod_rc_v2&pageId=4&cdate=03.11.2026&_=d7d7c07b860e4f73b767b8862ac6f10a",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:10:47 GMT",
+              "age_seconds": 0,
+              "sha256": "cc5bc44c6bcc6c933c6a2f4c7b31210f3f72e4c718feae128bcb9e9d82dfe05a",
+              "bytes": 19233
+            }
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "offered_60_minute_sessions": 117,
+          "requests": [
+            {
+              "url": "https://varaus.esportcenter.fi/varaus/index.php?func=mod_rc_v2&pageId=3&cdate=04.11.2026&_=ae3f548746b14faea83192c64e6b35d0",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:10:49 GMT",
+              "age_seconds": 0,
+              "sha256": "4ae60e6b336687a87d3ce04118125ca1bc078390174a8320ca7ca61d0e4b2224",
+              "bytes": 22950
+            },
+            {
+              "url": "https://varaus.esportcenter.fi/varaus/index.php?func=mod_rc_v2&pageId=4&cdate=04.11.2026&_=5774bbc5f9044bc0b1701a9c45b7e4c1",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:10:51 GMT",
+              "age_seconds": 0,
+              "sha256": "8fde9b0510a6ce2d731e99add401cd37fc1e12f07f507d401be403fa2db37daf",
+              "bytes": 19205
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "venue": "Targa Arena",
+      "status": "ok",
+      "matching_slots": 0,
+      "duplicates_removed": 0,
+      "dates": [
+        {
+          "date": "2026-11-03",
+          "offered_60_minute_sessions": 29,
+          "requests": [
+            {
+              "url": "https://europe-west1-falcon-328a1.cloudfunctions.net/ui-get",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:10:52 GMT",
+              "age_seconds": 0,
+              "sha256": "4ef623422d2231a1090bf65a12e55a035fa90161b9b6d56d000e47eea84ea591",
+              "bytes": 4139
+            },
+            {
+              "url": "https://firestore.googleapis.com/v1/projects/falcon-328a1/databases/(default)/documents/freeindex/kauniaistenurheilupuisto-9WQB1q2Z/indexes/public?mask.fieldPaths=%6020261103%60&_=da32eab8f9c44a72b0a8b3eb6ecdb15c",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:10:53 GMT",
+              "age_seconds": 0,
+              "sha256": "c0635996a2a2fde4da05aa7f58e26afc2a20470b60c12e41897aa27bb572f00b",
+              "bytes": 573
+            },
+            {
+              "url": "https://falconft.s3.eu-north-1.amazonaws.com/kauniaistenurheilupuisto-9WQB1q2Z/20261103/e4c7fc9d-d721-40d8-8612-4490ed5791d5.json",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:10:54 GMT",
+              "age_seconds": 0,
+              "sha256": "8f3cdfc41ad3a5140c4f193b2bfe9c9823ffc6de06c3d661f60c37b4c4e8112c",
+              "bytes": 47941
+            }
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "offered_60_minute_sessions": 37,
+          "requests": [
+            {
+              "url": "https://europe-west1-falcon-328a1.cloudfunctions.net/ui-get",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:10:55 GMT",
+              "age_seconds": 0,
+              "sha256": "4ef623422d2231a1090bf65a12e55a035fa90161b9b6d56d000e47eea84ea591",
+              "bytes": 4139
+            },
+            {
+              "url": "https://firestore.googleapis.com/v1/projects/falcon-328a1/databases/(default)/documents/freeindex/kauniaistenurheilupuisto-9WQB1q2Z/indexes/public?mask.fieldPaths=%6020261104%60&_=84f0c8f5bcd9400c8771088273e44214",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:10:57 GMT",
+              "age_seconds": 0,
+              "sha256": "412d94919b24e3677013f927217db461d86459a9b1c3008fbc0254eb1f0b5bec",
+              "bytes": 573
+            },
+            {
+              "url": "https://falconft.s3.eu-north-1.amazonaws.com/kauniaistenurheilupuisto-9WQB1q2Z/20261104/490ab5f8-af21-4954-82a2-93a03d61b46c.json",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:10:58 GMT",
+              "age_seconds": 0,
+              "sha256": "b76195f57208e9bdde0482d2f7c948582c938a013cbb52ba8a941944cb50ab1b",
+              "bytes": 44485
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "venue": "Smash Olari",
+      "status": "ok",
+      "matching_slots": 0,
+      "duplicates_removed": 0,
+      "dates": [
+        {
+          "date": "2026-11-03",
+          "offered_60_minute_sessions": 15,
+          "requests": [
+            {
+              "url": "https://play.fi/smashcenter/booking/booking-calendar?BookingCalForm%5Bp_laji%5D=7&BookingCalForm%5Bp_pvm%5D=2026-11-03&BookingCalForm%5Bp_calmode%5D=2&_=e8ebf926662249cfbe62b151f7daf552",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:11:00 GMT",
+              "age_seconds": 0,
+              "sha256": "0c786ea2251cd7a225fbe39a54245e822c8f40b18c19dc95e5d3505a87c77dde",
+              "bytes": 42421
+            }
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "offered_60_minute_sessions": 5,
+          "requests": [
+            {
+              "url": "https://play.fi/smashcenter/booking/booking-calendar?BookingCalForm%5Bp_laji%5D=7&BookingCalForm%5Bp_pvm%5D=2026-11-04&BookingCalForm%5Bp_calmode%5D=2&_=55838d4686594ce2bf92c187ce78e0b5",
+              "status": 200,
+              "server_date": "Sun, 01 Nov 2026 22:11:01 GMT",
+              "age_seconds": 0,
+              "sha256": "5e098b881dc224333b2f827fbc313153f0728176eb108d47e9785739335d1da0",
+              "bytes": 39926
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
